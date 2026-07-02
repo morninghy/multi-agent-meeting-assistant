@@ -1,0 +1,37 @@
+# Environment and secrets
+.env
+src/.env
+*.env
+!.env.example
+
+# Python cache/build output
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local data/runtime artifacts
+data/
+reports/
+*.log
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
