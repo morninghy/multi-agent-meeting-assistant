@@ -65,10 +65,7 @@ class SummaryAgent:
     4. 解析并验证结果
     5. 写入 state["summary"]
 
-    面试考点:
-    - Prompt 设计策略？（System Prompt + Few-shot + JSON Schema约束）
-    - 如何保证输出格式正确？（response_format + 解析降级）
-    - 长文本如何处理？（分块摘要 + 合并，MapReduce策略）
+
     """
 
     def __init__(self, llm_client: MiniMaxClient | None = None):
