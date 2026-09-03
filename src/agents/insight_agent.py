@@ -62,10 +62,7 @@ class InsightAgent:
     2. LLM 分析：情绪/关键词/亮点/建议
     3. 综合评分：结合规则和LLM结果
 
-    面试考点:
-    - 哪些用规则、哪些用LLM？（统计用规则，语义分析用LLM）
-    - 效率评分怎么设计的？（多指标加权：发言均衡度 + 决策数量 + 时间利用率）
-    - 情绪分析的准确率如何保证？（LLM few-shot + 置信度阈值）
+   
     """
 
     def __init__(self, llm_client: MiniMaxClient | None = None):
