@@ -53,10 +53,7 @@ class TranscriptionAgent:
     4. pyannote-audio 进行说话人识别
     5. 合并结果，输出 TranscriptResult
 
-    面试考点:
-    - 为什么用 WhisperX 而不是原版 Whisper？（速度 + 时间戳精度）
-    - VAD 预处理有什么作用？（降低幻觉，过滤静音段）
-    - 说话人识别的原理？（speaker embedding + 聚类）
+
     """
 
     def __init__(self, config: TranscriptionConfig | None = None):
