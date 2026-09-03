@@ -32,10 +32,6 @@ LangGraph 会议处理图 —— 多Agent编排核心
     │     END      │
     └──────────────┘
 
-面试考点:
-- LangGraph 的 State/Node/Edge 分别是什么？
-- 并行执行是怎么实现的？（Fan-out + Fan-in）
-- 如果某个并行节点失败了怎么办？（错误写入state，不阻塞其他节点）
 """
 
 from __future__ import annotations
